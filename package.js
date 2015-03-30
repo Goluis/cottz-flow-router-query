@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.5');
 
-  api.use('meteorhacks:flow-router');
+  api.use('meteorhacks:flow-router@1.1.2');
   api.use('blaze');
 
   api.addFiles('query.js', 'client');
