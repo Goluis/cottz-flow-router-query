@@ -2,7 +2,7 @@
 Simple package to easily manipulate the route query with Flow-router
 
 ## Installation
-must first have [Flow-router](https://github.com/meteorhacks/flow-router). if you like [Iron-router](https://github.com/iron-meteor/iron-router) and do not want to leave it there is a version of this for he: [cottz-iron-query](https://github.com/Goluis/cottz-iron-query)
+must first have [Flow-router](https://github.com/meteorhacks/flow-router). if you like [Iron-router](https://github.com/iron-meteor/iron-router) and do not want to leave it there is a version of this for him: [cottz-iron-query](https://github.com/Goluis/cottz-iron-query)
 
 ```sh
 $ meteor add cottz:flow-router-query
