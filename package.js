@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cottz:flow-router-query',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Simple package to easily manipulate the route query with Flow-router',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0.5');
+  api.versionsFrom('1.1.0.2');
 
   api.use('meteorhacks:flow-router@1.1.2');
   api.use('blaze');

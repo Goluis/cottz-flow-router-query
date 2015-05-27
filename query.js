@@ -37,7 +37,7 @@ FlowQuery.prototype.unset = function () {
 };
 
 FlowQuery.prototype.get = function (key) {
-	return FlowRouter._queryParams.get(key);
+	return FlowRouter.getQueryParam(key);
 };
 
 FlowQuery.prototype.getNonreactive = function (key) {
@@ -53,11 +53,3 @@ FlowQuery.prototype.go = function (queryParams) {
 FlowQuery.prototype.params = function () {
 	return FlowRouter._current.queryParams;
 };
-
-UI.registerHelper('FlowQuery', function (key) {
-	return FlowRouter.query.getNonreactive(key);
-});
-
-UI.registerHelper('FlowQueryReactive', function (key) {
-	return FlowRouter.query.get(key);
-});

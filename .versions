@@ -1,6 +1,6 @@
 base64@1.0.3
-blaze@2.1.0
-cottz:flow-router-query@0.0.1
+blaze@2.1.2
+cottz:flow-router-query@0.0.2
 deps@1.0.7
 ejson@1.0.6
 geojson-utils@1.0.3
@@ -8,13 +8,13 @@ htmljs@1.0.4
 id-map@1.0.3
 jquery@1.11.3_2
 json@1.0.3
-meteor@1.1.5
+meteor@1.1.6
 meteorhacks:flow-router@1.1.2
-minimongo@1.0.7
-observe-sequence@1.0.5
+minimongo@1.0.8
+observe-sequence@1.0.6
 ordered-dict@1.0.3
 random@1.0.3
 reactive-dict@1.1.0
 reactive-var@1.0.5
-tracker@1.0.6
+tracker@1.0.7
 underscore@1.0.3

@@ -84,13 +84,3 @@ FlowRouter.query.unset = function () {
   return this.go({});
 };
 ````
-
-## Template Helpers
-helpers available in the template
-
-#### {{ FlowQuery key }}
-gets the value of a key in the current path, this helper uses FlowRouter.query.getNonreactive because in most cases
-rerunning the helper in the template when the query is changed is not required
-
-#### {{ FlowQueryReactive key }}
-is exactly equal to `FlowQuery` but reactive (captain obvious help me)
