@@ -6,19 +6,19 @@ FlowQuery.prototype.set = function (key, value) {
 
 	if (typeof key === 'object') {
 		var newQueryParams = _.reduce(key, function (memo, v, k) {
-			if (v === undefined || v === '')
+			if (v === undefined || v === '' || v === null)
 				return _.omit(memo, k);
-			
+
 			memo[k] = v;
 			return memo;
 		}, queryParams);
 
 		if (_.isEqual(this.params(), newQueryParams)) return false;
-		
+
 		return this.go(newQueryParams);
 	}
 
-	if (value === undefined || value === '') {
+	if (value === undefined || value === '' || value === null) {
 		if (key in queryParams)
 			return this.go(_.omit(queryParams, key));
 		return false;
